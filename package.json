@@ -8,6 +8,7 @@
       "postinstall-client": "cd frontend && npm install && npm run build",
       "postinstall-server": "cd backend && npm install"
   },
+  git remote add front-heroku https://git.heroku.com/app-frontend-nat.git
   "keywords": [],
   "author": "",
   "license": "ISC",

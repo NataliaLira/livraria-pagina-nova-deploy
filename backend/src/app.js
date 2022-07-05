@@ -14,4 +14,5 @@ db.hasConnection()
 
 app.use(routes)
 
-app.listen(4500, () => console.log('Servidor no ar!'))
+const port = process.env.PORT || 4500
+app.listen(port, () => console.log('Servidor no ar!'))

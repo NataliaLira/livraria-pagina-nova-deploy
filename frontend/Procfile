@@ -1,0 +1,2 @@
+web: cd frontend && node src/app.js
+heroku config:set -a app-backend-nat PROCFILE=backend/Procfile
